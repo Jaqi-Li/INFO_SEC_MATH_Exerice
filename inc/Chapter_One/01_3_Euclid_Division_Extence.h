@@ -9,7 +9,7 @@
 #ifndef INFO_SEC_MATH_EXERICE_01_3_EUCLID_DIVISION_EXTENCE_H
 #define INFO_SEC_MATH_EXERICE_01_3_EUCLID_DIVISION_EXTENCE_H
 
-#include "../utils.h"
+#include "Chapter_One_utils.h"
 #include "01_3_Euclid_Division.h"
 /*
  * implementation of Extended Euclid Division (theorem 1.3.2)

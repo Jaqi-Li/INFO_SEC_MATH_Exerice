@@ -8,7 +8,7 @@
 
 #ifndef INFO_SEC_MATH_EXERICE_01_8_PRIME_FACTOR_DECOMPOSITION_H
 #define INFO_SEC_MATH_EXERICE_01_8_PRIME_FACTOR_DECOMPOSITION_H
-#include "../utils.h"
+#include "Chapter_One_utils.h"
 /*
  * prime factor decomposition (theorem 1.6.4)
  */

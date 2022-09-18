@@ -8,8 +8,7 @@
 
 #ifndef INFO_SEC_MATH_EXERICE_01_4_COMMON_FACTOR_H
 #define INFO_SEC_MATH_EXERICE_01_4_COMMON_FACTOR_H
-#include "../utils.h"
-#include "01_3_Euclid_Division_Extence.h"
+#include "Chapter_One_utils.h"
 
 /**
  * Find the common factor of two integers (theorem 1.3.4)

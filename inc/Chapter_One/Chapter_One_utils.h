@@ -6,8 +6,8 @@
 * @description:
 ********************************************************************************/
 
-#ifndef INFO_SEC_MATH_EXERICE_UTILS_H
-#define INFO_SEC_MATH_EXERICE_UTILS_H
+#ifndef INFO_SEC_MATH_EXERICE_CHAPTER_ONE_UTILS_H
+#define INFO_SEC_MATH_EXERICE_CHAPTER_ONE_UTILS_H
 
 
 #include <stdbool.h>
@@ -31,5 +31,13 @@ int * decomposeNto_PrimeFactor(int n,int * returnSize);
  */
 int * decomposeNto_AllFactor(int n,int * returnSize);
 
+/**
+ *
+ * @param a
+ * @param b
+ * @return      (a,b)
+ */
+int gcd(int a,int b);
 
-#endif //INFO_SEC_MATH_EXERICE_UTILS_H
+
+#endif //INFO_SEC_MATH_EXERICE_CHAPTER_ONE_UTILS_H

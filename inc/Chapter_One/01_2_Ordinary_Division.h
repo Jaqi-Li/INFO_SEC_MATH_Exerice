@@ -9,7 +9,7 @@
 #ifndef INFO_SEC_MATH_EXERICE_01_2_ORDINARY_DIVISION_H
 #define INFO_SEC_MATH_EXERICE_01_2_ORDINARY_DIVISION_H
 
-#include "../utils.h"
+#include "Chapter_One_utils.h"
 
 /*
  * judge whether a number is prime by ordinary division (theorem 1.1.7)

@@ -9,7 +9,7 @@
 
 _Bool A_CoprimeWith_B(int a, int m) {
 
-    int greatest_factor = Find_Greatest_Factor(a,m);
+    int greatest_factor = gcd(a,m);
     if (1 == greatest_factor)
         return true;
     else
@@ -21,10 +21,17 @@ void testA_CoprimeWith_B(int a, int m) {
         printf("%d is coprime with %d",a,m);
     else{
         printf("%d is not coprime with %d\n",a,m);
-        if (a<m)
-            testEuclid_Division_Sub(m,a);
-        else
-            testEuclid_Division_Sub(a,m);
+        int quotient, remainder;
+        if (a<m){
+            quotient = m / a;
+            remainder = m % a;
+        }
+        else{
+            quotient = a / m;
+            remainder = a % m;
+        }
+        printf("%-2d = %2d * %2d + %2d",a,m,quotient,remainder);
+
     }
 
 }

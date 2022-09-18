@@ -9,7 +9,7 @@
 #ifndef INFO_SEC_MATH_EXERICE_01_1_ERATOSHENES_H
 #define INFO_SEC_MATH_EXERICE_01_1_ERATOSHENES_H
 
-#include "../utils.h"
+#include "Chapter_One_utils.h"
 
 #define delete false
 #define remain true

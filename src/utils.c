@@ -5,7 +5,7 @@
 * @version: 1.0
 * @description:
 ********************************************************************************/
-#include "../inc/utils.h"
+#include "../inc/Chapter_One/Chapter_One_utils.h"
 
 _Bool isPrime(int num) {
 
@@ -50,5 +50,13 @@ int *decomposeNto_AllFactor(int n, int *returnSize) {
         }
     }
     return factors;
+}
+
+int gcd(int a, int b) {
+    if(b){
+        return gcd(b,a%b);
+    }
+    else
+        return a;
 }
 

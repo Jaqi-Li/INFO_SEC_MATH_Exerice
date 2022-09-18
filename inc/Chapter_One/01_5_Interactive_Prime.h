@@ -9,8 +9,7 @@
 #ifndef INFO_SEC_MATH_EXERICE_01_5_INTERACTIVE_PRIME_H
 #define INFO_SEC_MATH_EXERICE_01_5_INTERACTIVE_PRIME_H
 
-#include "../utils.h"
-#include "01_4_Common_Factor.h"
+#include "Chapter_One_utils.h"
 
 /**
  * Determine whether a and m are interactive prime

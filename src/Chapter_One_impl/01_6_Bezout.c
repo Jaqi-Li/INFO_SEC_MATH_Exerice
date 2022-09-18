@@ -14,7 +14,7 @@ int bezout(int a, int b, int *x, int *y) {
         *y = 0;
         return a;
     } else{
-        int r = bezout(b, euclid_Division(a,b),x,y);
+        int r = bezout(b, a%b,x,y);
         int temp;
         temp = *y;
         *y = *x - a/b *(*y);

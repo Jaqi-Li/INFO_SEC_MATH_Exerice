@@ -8,7 +8,11 @@
 #include "../../inc/Chapter_One/01_4_Common_Factor.h"
 
 int Find_Greatest_Factor(int a, int b) {
-    return euclid_Division_Extend(a,b);
+    if (b){
+        return Find_Greatest_Factor(b,a % b);
+    }
+    else
+        return a;
 }
 
 int *Find_Common_Factor(int a, int b, int *returnSize) {
@@ -17,7 +21,7 @@ int *Find_Common_Factor(int a, int b, int *returnSize) {
     int * common_factor = (int *) malloc(sizeof(int) * greatestFactor);
     *returnSize = 0;
     for (i = 1,j = 0; i <= greatestFactor; ++i){
-        if (A_Divisible_By_B(a,i) && A_Divisible_By_B(b,i))
+        if (!(a%i) && !(b%i))
             common_factor[j++] = i;
     }
     *returnSize = j;

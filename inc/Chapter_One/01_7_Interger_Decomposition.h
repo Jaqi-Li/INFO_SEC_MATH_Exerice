@@ -8,7 +8,7 @@
 
 #ifndef INFO_SEC_MATH_EXERICE_01_7_INTERGER_DECOMPOSITION_H
 #define INFO_SEC_MATH_EXERICE_01_7_INTERGER_DECOMPOSITION_H
-#include "../utils.h"
+#include "Chapter_One_utils.h"
 
 /*
  * Integer decomposition (theorem 1.5.1)
