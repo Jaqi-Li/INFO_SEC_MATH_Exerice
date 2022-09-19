@@ -8,7 +8,16 @@
 
 #ifndef INFO_SEC_MATH_EXERICE_02_4_EULER_FUNCTION_H
 #define INFO_SEC_MATH_EXERICE_02_4_EULER_FUNCTION_H
-/*
+#include "Chapter_Two_Utils.h"
+
+/**
  * Implementation of Euler function
+ * @param n
+ * @return
  */
+int euler(int n);
+
+
+void testEuler(int n);
+
 #endif //INFO_SEC_MATH_EXERICE_02_4_EULER_FUNCTION_H

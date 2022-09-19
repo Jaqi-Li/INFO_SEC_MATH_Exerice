@@ -9,11 +9,7 @@
 
 _Bool A_CoprimeWith_B(int a, int m) {
 
-    int greatest_factor = gcd(a,m);
-    if (1 == greatest_factor)
-        return true;
-    else
-        return false;
+    return (1 == gcd(a,m));
 }
 
 void testA_CoprimeWith_B(int a, int m) {
